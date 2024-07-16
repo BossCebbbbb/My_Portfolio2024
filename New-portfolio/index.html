@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+    <!-- Include AOS CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+
+<!-- Include AOS JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+
+
+
+
+
+    <link rel="stylesheet" href="style.css">
+    
+    
+ 
+    
+    <title>Portfolio</title>
+    
+</head>
+<body>
+    
+    <header>
+		<nav class="navbar">
+			<div class="container">
+				<a class="navbar-brand">
+					<h1><span>Boss</span> Ceb</h1>
+				</a>
+                <ul class="header-content">
+                    <li><a class="nav-link active" href="#home">Home</a></li>
+                    <li><a class="nav-link" href="#about">About</a></li>
+                    <li><a class="nav-link" href="#service">Service</a></li>
+                    <li><a class="nav-link" href="#gallery">Portfolio</a></li>
+                    <li><a class="nav-link" href="#blog">Blogs</a></li>
+                    <li><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+                
+			</div>
+		</nav>	
+	</header>
+
+    <div class="banner" id="home">
+        <div class="home_container">
+            <div class="banner-home">
+                <div class="text_container">
+                    <div class="home_title" id="banner-title">
+                        <h2>Hi! I AM</h2>
+                        <h1>JUSTIN TUBAÑA</h1>
+                        <h2><span id="role"></span></h2> <!-- Dynamic role will be placed here -->
+                    </div>
+                    <div class="home_text">
+                        <p>Resolving design problems, building smart user interfaces and useful interactions, developing web applications, <br> and seamless web experiences.</p>
+                        <a href="pdf/Resume_Application.pdf" class="download-btn" download>Download CV</a>
+                    </div>
+                </div>
+                <div class="home_pic">
+                    <img src="img/development.png" alt="Clip Image">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<section class="about-us" id="about">
+    <div class="about-container" data-aos="fade-up">
+        <div class="about-title">
+            <div class="section-title" >
+                <h2>About Me</h2>
+                <p>There Is All About Me</p>
+                <img src="icon/3dot-icon.svg" alt="">
+            </div>
+        </div>
+        <div class="aboutus-content" >
+            <!-- About image start -->
+					<div class="about-image" data-aos="fade-right" data-aos-delay="200">
+						<img src="img/ceb.jpg" alt="">
+					</div>
+			<!-- About image end -->
+
+             <!-- About Content start -->
+              <div class="content-text" data-aos="fade-left" data-aos-delay="300"> 
+					<div class="about-content">
+						<h3>I'm Justin Tubaña</h3>
+                        <hr>
+						<p>My goal is to work as a Web Developer or UI/UX designer for a company, that I can use my knowledge and abilities to help the team succeed. I am passionate in using different technologies, such HTML, CSS, JavaScript, etc., to build visually appealing     websites.</p>
+						
+						<p>As a web developer and designer, my hobbies easily lead to my work interests. I enjoy learning about web development and web design to build visually beautiful and web experiences.</p>
+						<div class="ul-content">
+                            <div class="li-content"  data-aos="fade-up" data-aos-delay="400">
+                            <ul>
+                                <li><img src="icon/calendar-icon.svg"><b>Date of birth:</b> 19 September 2002</li>
+                                <li><img src="icon/freelance-icon.svg"><b>Freelance:</b> Available</li>
+                                <li><img src="icon/phone-icon.svg"><b>Phone:</b> +639 381 1381</li>
+                                <li><img src="icon/address-icon.svg"><b>Address:</b> Samal, Bataan</li>
+                            </ul>
+                            </div>
+                            <div class="li-content" data-aos="fade-up" data-aos-delay="400">
+                            <ul>
+                                <li><img src="icon/nationality-icon.svg"><b>Nationality:</b> Filipino</li>
+                                <li><img src="icon/email-icon.svg"><b>Email:</b> justinjmt24@gmail.com</li>
+                                <li><img src="icon/spoken-icon.svg"><b>Spoken Langages:</b> Tagalog - English</li>
+                                <li><img src="icon/github-icon.svg"><b>Github:</b> Bossceeeeeb!!!!</li>
+                            </ul>
+                            </div>
+                        </div>
+					</div>
+                </div>
+					<!-- About Content End -->
+        </div>
+
+    </div>
+</section>
+
+
+<section class="services" id="service">
+	<div class="service-container">
+        <div class="service-title" >
+                <div class="section-title"  data-aos="fade-up">
+					<h2>My Services</h2>
+					<p>Professional Skills</p>
+                    <img src="icon/3dot-icon.svg" alt="">
+				</div>
+        </div>
+
+        <div class="service-content">
+            <!-- Service Single Start -->
+					<div class="service-img" data-aos="fade-up" data-aos-delay="200">
+						<div class="icon-box">
+							<img src="icon/ux-ui-logo.png" alt="">
+						</div>
+						<div class="icon-text">
+						<h3>UI/UX Designer</h3>
+						<p>As a UI/UX designer, my responsible for creating visually appealing and user-friendly interfaces for digital products.</p>
+                        </div>
+					</div>
+			<!-- Service Single End -->
+            <!-- Service Single Start -->
+					<div class="service-img" data-aos="fade-up" data-aos-delay="350">
+						<div class="icon-box">
+							<img src="icon/web-icon.svg" alt="">
+						</div>
+						<div class="icon-text">
+						<h3>Web Developer</h3>
+						<p>As a web developer, I bring a strong sense of responsibility and reliability to every project. With a solid foundation in front-end and back-end.</p>
+                        </div>
+					</div>
+			<!-- Service Single End -->
+            <!-- Service Single Start -->
+					<div class="service-img" data-aos="fade-up" data-aos-delay="550">
+						<div class="icon-box">
+							<img src="icon/creative-icon.svg" alt="">
+						</div>
+						<div class="icon-text">
+						<h3>Creative Designer</h3>
+						<p>As a creative designer, I blend artistic vision with technical expertise to craft compelling visual experiences.</p>
+                        </div>
+					</div>
+			<!-- Service Single End -->
+            <!-- Service Single Start -->
+					<div class="service-img" data-aos="fade-up" data-aos-delay="650">
+						<div class="icon-box">
+							<img src="icon/qa-icon.svg" alt="">
+						</div>
+						<div class="icon-text">
+						<h3>QA Analysis</h3>
+						<p>I specialize in identifying bugs, improving software functionality, and enhancing user experience.</p>
+                        </div>
+					</div>
+			<!-- Service Single End -->
+            
+        </div>
+    </div>
+</section>
+
+
+
+<section class="gallery" id="gallery">
+    <div class="gallery-content">
+        <div class="gallery-title" data-aos="fade-up">
+					<h2>Portfolio</h2>
+					<p>Recent Projects</p>
+                    <img src="icon/3dot-icon.svg" alt="">
+        </div>
+            <div class="gallery-container">
+                <div class="gallery-item">
+                    <img src="img/b2b-1.PNG" alt="Gallery Image 1" data-aos="fade-up" data-aos-delay="100">
+                </div>
+                <div class="gallery-item">
+                    <img src="img/landing.PNG" alt="Gallery Image 2" data-aos="fade-up" data-aos-delay="200">
+                </div>
+                <div class="gallery-item">
+                    <img src="img/rental.PNG" alt="Gallery Image 3" data-aos="fade-up" data-aos-delay="300">
+                </div>
+                <div class="gallery-item">
+                    <img src="img/Samal.png" alt="Gallery Image 4" data-aos="fade-up" data-aos-delay="400">
+                </div>
+                <div class="gallery-item">
+                    <img src="img/e-com.PNG" alt="Gallery Image 5" data-aos="fade-up" data-aos-delay="500">
+                </div>
+                <div class="gallery-item">
+                    <img src="img/fig-1.PNG" alt="Gallery Image 6" data-aos="fade-up" data-aos-delay="600">
+                </div>
+            </div>
+            <div class="load-more-container" data-aos="fade-up" data-aos-delay="200">
+                <a href="#home">
+                    <button class="load-more-button">Load More</button>
+                </a>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="latest-blog" id="blog">
+		<div class="blog-container">
+            <div class="blog-content">
+                <!-- Section title start -->
+					<div class="blog-title" data-aos="fade-up">
+						<h2>Blogs</h2>
+						<p>Complete Works</p>
+                        <img src="icon/3dot-icon.svg" alt="">
+					</div>
+				<!-- Section title end -->
+            </div>
+
+            <div class="blog-img">
+                <!-- Blog Single Start -->
+					<div class="blog-single" data-aos="fade-up" data-aos-delay="200">
+						<div class="blog-header">
+							<figure>
+								<img src="img/Samal.png" alt="">
+							</figure>
+							
+							
+						</div>
+						
+						<div class="blog-body">
+							<h2>An Online Management Information System For B2B Driving School With SMS Technology</h2>
+							<p>Capstone Project - To develop a web application that will help student drivers in B2B make an appointment, be guided through the process of taking an online exam in LTO, provide ratings and feedback to the instructors, and create an appointment, checking of available schedule, and data gathering for the client's information.</p>
+						</div>
+						
+						<div class="blog-footer">
+							<ul>
+                                <li><i class="fa fa-calendar"></i>2024</li>
+                               
+                            </ul>
+						</div>
+					</div>
+					<!-- Blog Single End -->
+                    <!-- Blog Single Start -->
+					<div class="blog-single" data-aos="fade-up" data-aos-delay="400">
+						<div class="blog-header">
+							<figure>
+								<img src="img/b2b-1.PNG" alt="">
+							</figure>
+							
+							
+						</div>
+						
+						<div class="blog-body">
+							<h2> Dialysis Center Scheduling Management System For Samal Dialysis Center With SMS Technology</h2>
+							<p>Thesis Project - To develop management scheduling system for Samal Dialysis Center with SMS Technology that is capable to help the patient and the dialysis center to achieve better services, to gather relevant information securely.</p>
+						</div>
+						
+						<div class="blog-footer">
+							<ul>
+                                <li><i class="fa fa-calendar"></i>2023</li>
+                            </ul>
+						</div>
+					</div>
+					<!-- Blog Single End -->
+                    <!-- Blog Single Start -->
+					<div class="blog-single" data-aos="fade-up" data-aos-delay="600">
+						<div class="blog-header">
+							<figure>
+								<img src="img/snake.jpg" alt="">
+							</figure>
+							
+							
+						</div>
+						
+						<div class="blog-body">
+							<h2> Snake Game - C++ VB.NET Game Development through VS Studio</h2>
+							<p>Comsci Project - The Project entitled ‘Snake Game’ is a simple console application without graphics. In this project, you can play the popular “Snake Game” just like you played it elsewhere. You have to use the up, down, right, or left arrows to move the snake and eat multiple targets.</p>
+						</div>
+						
+						<div class="blog-footer">
+							<ul>
+                                <li><i class="fa fa-calendar"></i>2024</li>
+                            </ul>
+						</div>
+					</div>
+					<!-- Blog Single End -->
+            </div>
+        </div>
+</section>
+
+
+
+<section class="cont" id="contact">
+    <div class="contact-us">
+                    <div class="contact-title" data-aos="fade-up">
+						<h2>Contact Us</h2>
+						<p>Feel free to drop me a line</p>
+                        <img src="icon/3dot-icon.svg" alt="">
+					</div>
+        <div class="container12" data-aos="fade-right" data-aos-delay="200">
+        
+            <main class="main-content" >
+                    <section class="contact-form">
+                        <h2>Get in Touch</h2>
+                        <form id="contactForm">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                            <button class="btn" type="submit">Send</button>
+                        </form>
+                    </section>
+                   
+            </main>
+        </div>
+    </div>
+</section>
+
+
+
+<footer class="main-footer">
+		<div class="-footer-container"> 
+            <div class="footer-content">
+                <!-- Footer Logo start -->
+					<div class="footer-logo">
+						<a href="#home">
+                            <h1><span>Boss</span> Ceb</h1>
+                        </a>
+                        
+					</div>
+					<!-- Footer Logo end -->
+                    
+                    <!-- Footer Social Link start -->
+					<div class="footer-social">
+						<a href="#"><img src="icon/facebook-icon.svg" alt=""></a>
+						<a href="#"><img src="icon/gmail-icon.svg" alt=""></a>
+						<a href="#"><img src="icon/github2-icon.svg" alt=""></a>
+						
+					</div>
+					<!-- Footer Social Link end -->
+                    <!-- Footer Copyright start -->
+					<div class="footer-copyright">
+						<p>Copyright © Untitled. All rights reserved. Design By Boss Ceb</p>
+					</div>
+					<!-- Footer Copyright end -->
+            </div>
+        </div>
+</footer>
+
+
+
+ 
+
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        AOS.init({
+            offset: 300, // Adjust the offset as needed (pixels from the bottom of the viewport)
+            duration: 2000, // Animation duration (in milliseconds)
+            once: true // Only animate once
+        });
+    </script>
+
+</body>
+</html>
+
+
+
